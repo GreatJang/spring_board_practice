@@ -34,10 +34,10 @@ public class AuthorController {
         return "OK";
     }
 
-    @PostMapping("/author/list")
-    @ResponseBody
-    public List<AuthorListResDto> authorList(){
-        return authorService.findAll();
-    }
+//    @PostMapping("/author/list")
+//    @ResponseBody
+//    public List<AuthorListResDto> authorList(){
+//        return authorService.findAll();
+//    }
 
 }
