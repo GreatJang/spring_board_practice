@@ -38,4 +38,8 @@ public class AuthorService {
         }
         return authorListResDtos;
     }
+
+    public void update(Long id, AuthorUpdateDto updateDto){
+
+    }
 }
